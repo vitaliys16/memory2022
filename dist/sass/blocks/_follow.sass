@@ -1,0 +1,88 @@
+.follow
+    margin-top: 49px
+    &-title
+        &__link
+            display: flex
+            align-items: center
+            text-decoration: none
+            color: $main-color
+            &-text
+                color: $main-color
+                margin-right: 16px
+            &-img
+                width: 24px
+                height: 24px
+                margin-top: 5px
+    &-slider
+        max-width: 130px
+        &__container
+            display: flex
+            margin-top: 23px
+            justify-content: space-between
+            &-item
+                display: grid
+                grid-template-columns: repeat(2, 35%)
+                max-width: 437px
+                width: 100%
+                gap: 28px 9%
+                align-items: self-end
+                &:nth-child(2n)
+                    margin-top: 16px
+                img
+                    width: 100%
+                    height: 100%
+                    object-fit: cover
+                &__little
+                    width: 159px
+                    height: 159px
+                    &:nth-child(2n)
+                        margin: auto
+                        grid-column-start: 1
+                        grid-column-end: 5
+                &__big
+                    max-width: 437px
+                    width: 100%
+                    height: 437px
+                    grid-column-start: 1
+                    grid-column-end: 5
+@media (max-width: 1439px)
+    .follow
+        &-slider
+            grid-column-start: 1
+            grid-column-end: 5
+            &__container
+                justify-content: space-around
+                align-items: center
+                flex-wrap: wrap
+                &-item
+                    margin: 0 1%
+                    flex-basis: 30%
+@media (max-width: 975px)
+    .follow
+        &-slider
+            &__container
+                &-item
+                    flex-basis: 45%
+@media (max-width: 768px)
+    .follow
+        margin-top: 24px
+        &-title
+            &__link
+                &-img
+                    margin-top: 0
+        &-slider
+            display: none
+            &__container
+                margin-top: 0px
+                &-item
+                    margin: 16px auto
+                    flex-basis: 100%
+                    &:nth-child(even)
+                        //display: none
+                        margin: auto
+                    &:nth-child(odd)
+                        //display: none
+                    &:first-child
+                        display: grid
+                    &__little
+                        display: none

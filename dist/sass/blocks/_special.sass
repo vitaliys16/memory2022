@@ -1,0 +1,88 @@
+.special
+    margin: auto
+    display: flex
+    align-items: center
+    max-width: 1440px
+    height: 516px
+    &-item
+        position: relative
+        height: 100%
+        max-width: 469px
+        width: 100%
+        &__img
+            object-position: -280px 0
+        &__text
+            position: absolute
+            display: flex
+            flex-direction: column
+            align-items: center
+            justify-content: center
+            right: 0
+            left: 0
+            top: 50%
+            bottom: 50%
+            margin: auto
+            text-align: center
+            z-index: 2
+            &-link
+                font-family: NeueHaasDisplayBold
+                color: #F4F1EC
+                text-decoration: none
+                font-size: 24px
+                text-transform: uppercase
+                padding: 11px 49px
+                border: 3px solid #F4F1EC
+            &-detail
+                text-transform: capitalize
+                color: #F4F1EC
+        &__background
+            &-gradient
+                background: linear-gradient(0deg, rgba(64, 41, 9, 0.4), rgba(64, 41, 9, 0.4))
+                height: 100%
+                width: 100%
+                position: absolute
+        img
+            width: 100%
+            height: 100%
+            object-fit: cover
+    &-describe
+        max-width: 504px
+        height: 100%
+        width: 100%
+        display: flex
+        flex-direction: column
+        &__title
+            font-family: Manege
+            font-size: 36px
+            color: $main-color
+            margin: 75px 0 40px
+        &__text
+            font-size: 16.5px
+        &__btn
+            margin-top: 69px
+        &__slider
+            &-nav
+                margin-top: 32%
+                max-width: 131px
+@media (max-width: 768px)
+    .special
+        flex-direction: column
+        height: 100%
+        &-describe
+            &__title
+                font-size: 24px
+                margin: 35px 0 20px
+            &__text
+                font-size: 14.5px
+            &__btn
+                margin-top: 16px
+            &__slider
+                &-nav
+                    display: none
+                    margin-top: 35px
+                    margin-bottom: 24px
+        &-item
+            max-width: 100%
+            height: 100vh
+            &__img
+                object-position: initial

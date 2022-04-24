@@ -1,0 +1,132 @@
+.banner
+    margin-top: 93px
+    height: 639px
+    img
+        width: 100%
+    &-block
+        display: flex
+        position: relative
+    &-description
+        position: absolute
+        left: 0
+        width: 50%
+        &__title
+            font-family: Manege
+            font-weight: 300
+            font-size: 80px
+            line-height: 81px
+            margin: 95px 0 0 0
+        &__subtitle
+            font-family: NeueHaasDisplay
+            font-weight: 300
+            margin: 12px 0 0 0
+            font-size: 24.5px
+
+        &__explore
+            display: flex
+            justify-content: space-between
+            width: 151px
+            color: $orange
+            margin: 146px 0 0 0
+            text-decoration: none
+            &-circle
+                display: none
+            &-text
+                font-family: NeueHaasDisplay
+                font-size: 25px
+                margin-right: 16px
+        &__slider
+            &-arrow
+                &s
+                    display: flex
+                    margin: 92px 0 0 0
+                    justify-content: space-between
+                    max-width: 65px
+                    width: 100%
+    &-slider
+        display: flex
+        align-items: center
+        position: absolute
+        width: 68.3%
+        z-index: -1
+        right: 0
+        &__center
+            margin-right: -45px
+        &__next
+            overflow: hidden
+        &__number
+            display: flex
+            justify-content: space-between
+            align-items: center
+            position: absolute
+            right: 197px
+            bottom: 78px
+            max-width: 131px
+            width: 100%
+            height: 16px
+            &-text
+                font-family: Manege
+                cursor: pointer
+        &__line
+            display: block
+            width: 60px
+            height: 1px
+            background: $main-color
+        &__mobile
+            &-center
+                display: none
+.arrow-left
+    transform: scale(-1)
+@media (max-width: 1439px)
+    .banner
+        &-slider
+            width: 66%
+            &__number
+                right: 106px
+        &-description
+            width: 53%
+@media (max-width: 768px)
+    .banner
+        margin-top: 72px
+        height: 661px
+        &-description
+            &__title
+                display: none
+            &__subtitle
+                display: none
+            &__explore
+                z-index: 121
+                margin: 0
+                position: absolute
+                bottom: 80px
+                left: 14px
+                align-items: center
+                &-circle
+                    display: block
+                    position: absolute
+                    width: 127px
+                    height: 127px
+                    right: 38px
+                    background: #F4F1EC
+                    border-radius: 50%
+                    z-index: -1
+            &__slider
+                &-arrows
+                    display: none
+        &-slider
+            width: 100%
+            position: relative
+            &__center
+                display: none
+                img
+                    width: 100%
+            &__next
+                display: none
+            &__mobile
+                &-center
+                    display: block
+                    height: 100%
+                    img
+                        width: 100%
+                        height: 100%
+                        object-fit: cover

@@ -1,0 +1,93 @@
+.collection
+    margin-top: 155px
+    position: relative
+    &-title
+        font-family: Manege
+        color: $main-color
+        font-size: 36px
+    &-background
+        position: absolute
+        background: #F4F1EC
+        height: 471px
+        width: 100%
+        top: 157px
+    &-slide
+        &__image
+            max-width: 437px
+            width: 100%
+            object-fit: cover
+            height: 300px
+        &__heading
+            color: $main-color
+            font-size: 25px
+            line-height: 17px
+            font-family: NeueHaasDisplay
+        &__description
+            color: $main-color
+            opacity: 60%
+            font-family: NeueHaasDisplay
+            font-size: 16px
+            line-height: 19px
+        &r
+            position: relative
+            top: 31px
+            width: 100%
+            height: 472px
+            &__navigation
+                max-width: 181px
+                width: 100%
+                position: relative
+                margin: 43px auto 13px
+                z-index: 2
+            &__box
+                position: relative
+                bottom: 50px
+                display: flex
+                justify-content: space-between
+                &-item
+                    max-width: 437px
+                    width: 100%
+@media (max-width: 1439px)
+    .collection
+        &-slider
+            &__box
+                &-item
+                    padding: 0 16px
+@media (max-width: 768px)
+    .collection
+        margin-top: 27px
+        &-title
+            font-size: 24px
+        &-slide__description
+            font-size: 14px
+            line-height: 19px
+            margin-bottom: 0
+        &-slide__image
+            object-position: 0
+        &-slide__heading
+            font-size: 20px
+            margin: 24px 0 0 0
+        &-slide__description
+            font-size: 14.5px
+            line-height: 19px
+            margin-bottom: 0
+            margin: 11px auto 0
+        &-slider
+            max-height: 354px
+            height: 100%
+            &__navigation
+                max-width: 126px
+                right: 0
+                bottom: 94px
+                margin-right: 0
+            &__box
+                bottom: 81px
+                display: flex
+                align-items: center
+                justify-content: center
+                &-item
+                    display: none
+                &-item
+                    &:last-child
+                        display: block
+                        padding: 0
