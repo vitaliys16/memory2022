@@ -9,6 +9,35 @@
     <title>Memory.</title>
 </head>
 <body>
+    <div class="login">
+        <div class="login-modal">
+            <div class="login-modal__close">
+			    <img src="img/close-icon-green.svg" alt="modal-close">
+		    </div>
+            <h1 class="login-modal__title">Authorization</h1>
+            <!--form-->
+            <form action="" name="login-modal__form">
+				<div class="login-modal__form-group">
+					<input type="text" name="fio" class="form-control" placeholder="Your name">
+				</div>
+				<div class="login-modal__form">
+					<input type="text" name="tel" class="form-control required" placeholder="Password *">
+				</div>
+				<p class="login-modal__requirements"><span class="red">*</span> <span class="f12">- required fields</span></p>
+                <div class="login-modal__form-elements">
+                    <button class="btn login-modal__form-btn">
+                        <p class="btn-text">Login</p>
+                        <img src="img/arrow.svg" alt="arrow">
+                    </button>
+                    <div class="login-modal__links">
+                        <a href="#"><span>Sign Up</span></a>
+                        <a href="#"><span>Forgot password?</span></a>
+                    </div>
+                </div>
+			</form>
+            <!--end-form-->
+        </div>
+    </div>
     <nav class="navbar">
         <div class="container">
             <div class="navbar-sector-one">

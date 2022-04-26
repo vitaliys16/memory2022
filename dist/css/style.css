@@ -1535,4 +1535,88 @@ input {
     margin-top: 25px;
   }
 }
+
+.login {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 100000;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.login-modal {
+  position: fixed;
+  z-index: 1000000;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-width: 400px;
+  width: 100%;
+  height: 320px;
+  background: #ffffff;
+  padding: 45px 25px 25px;
+}
+
+.login-modal__close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 17px;
+  height: 17px;
+  cursor: pointer;
+}
+
+.login-modal__close img {
+  width: 100%;
+}
+
+.login-modal__title {
+  font-family: NeueHaasDisplay;
+  text-align: center;
+  font-size: 28px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.login-modal__requirements {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.login-modal__links {
+  display: grid;
+  text-align: right;
+  align-items: center;
+  grid-auto-rows: 25px;
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+.login-modal__links a {
+  color: #402909;
+  text-decoration: none;
+}
+
+.login-modal__form-elements {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-control {
+  width: 100%;
+  margin-bottom: 25px;
+  font-size: 16.5px;
+  font-family: NeueHaasDisplay;
+  border: none;
+  border-bottom: 1px solid #402909;
+}
 /*# sourceMappingURL=style.css.map */
