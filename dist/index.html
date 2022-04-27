@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <script src="./js/main.js" defer></script>
     <title>Memory.</title>
 </head>
@@ -146,33 +148,48 @@
                 <div class="collection-slider">
                     <div class="collection-slider__navigation">
                         <div class="slider">
-                            <p class="slider-text">1</p>
+                            <a href="#one" class="slider-text secondary url">1</a>
                             <div class="slider-line"></div>
-                            <p class="slider-text">2</p>
-                            <p class="slider-text">3</p>
-                            <p class="slider-text">4</p>
-                            <p class="slider-text">5</p>
+                            <a href="#two" class="slider-text secondary url">2</a>
+                            <a href="#three" class="slider-text secondary url">3</a>
+                            <a href="#four" class="slider-text secondary url">4</a>
+                            <a href="#five" class="slider-text secondary url">5</a>
                         </div>    
                     </div>
-                    <div class="collection-slider__box">
+                    <div class="collection-slider__box owl-carousel owl-theme">
                         <!--slider-item-->
-                        <div class="collection-slider__box-item">
+                        <div class="collection-slider__box-item" data-hash="one">
                             <img src="img/collection/1.jpg" alt="image" class="collection-slide__image">
                             <h1 class="collection-slide__heading">Delicate sets of rings</h1>
                             <p class="collection-slide__description">Choose the best kit for you. Amazing, rebellious, exquisite</p>
                         </div>
                         <!--END-slider-item-->
                         <!--slider-item-->
-                        <div class="collection-slider__box-item slider-active">
+                        <div class="collection-slider__box-item" data-hash="two">
                             <img src="img/collection/2.jpg" alt="image" class="collection-slide__image">
                             <h1 class="collection-slide__heading">Collection of white gold</h1>
                             <p class="collection-slide__description">A wide range of rings at a bargain price. Start your precious shopping today!</p>
                         </div>
-                        <!--END-slider-item--><!--slider-item-->
-                        <div class="collection-slider__box-item">
+                        <!--END-slider-item-->
+                        <!--slider-item-->
+                        <div class="collection-slider__box-item" data-hash="three">
                             <img src="img/collection/3.jpg" alt="image" class="collection-slide__image">
                             <h1 class="collection-slide__heading">Jewelry with pearls</h1>
                             <p class="collection-slide__description">Jewelry with pearls from $ 50. Available in 64 stores in Moscow, more than 400 outlets throughout Russia.</p>
+                        </div>
+                        <!--END-slider-item-->
+                        <!--slider-item-->
+                        <div class="collection-slider__box-item" data-hash="four">
+                            <img src="img/collection/1.jpg" alt="image" class="collection-slide__image">
+                            <h1 class="collection-slide__heading">Delicate sets of rings</h1>
+                            <p class="collection-slide__description">Choose the best kit for you. Amazing, rebellious, exquisite</p>
+                        </div>
+                        <!--END-slider-item-->
+                        <!--slider-item-->
+                        <div class="collection-slider__box-item" data-hash="five">
+                            <img src="img/collection/2.jpg" alt="image" class="collection-slide__image">
+                            <h1 class="collection-slide__heading">Collection of white gold</h1>
+                            <p class="collection-slide__description">A wide range of rings at a bargain price. Start your precious shopping today!</p>
                         </div>
                         <!--END-slider-item-->
                     </div>
@@ -392,5 +409,10 @@
             </div>
         </div>
     </footer>
+    <!--Carousel-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/slider.js"></script>
+    <!--End-Carousel-->
 </body>
 </html>

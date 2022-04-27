@@ -40,6 +40,7 @@
                 margin: 43px auto 13px
                 z-index: 2
             &__box
+                //max-width: 1440px
                 position: relative
                 bottom: 50px
                 display: flex
@@ -47,6 +48,9 @@
                 &-item
                     max-width: 437px
                     width: 100%
+                    margin-bottom: 70px
+collection-slider__box-item.active.center
+                    top: 60px
 @media (max-width: 1439px)
     .collection
         &-slider
@@ -65,8 +69,8 @@
         &-slide__image
             object-position: 0
         &-slide__heading
-            font-size: 20px
-            margin: 24px 0 0 0
+            font-size: 20.7px
+            margin: 27px 0 0 0
         &-slide__description
             font-size: 14.5px
             line-height: 19px
@@ -87,7 +91,10 @@
                 justify-content: center
                 &-item
                     display: none
+                    margin: auto
                 &-item
                     &:last-child
                         display: block
                         padding: 0
+    collection-slider__box-item.active.center
+                        top: 0
