@@ -448,6 +448,7 @@ input {
 .navbar {
   color: #402909;
   position: relative;
+  overflow: hidden;
 }
 
 .navbar::after {
@@ -457,7 +458,7 @@ input {
   height: 1px;
   background: rgba(192, 153, 134, 0.2);
   left: 0;
-  top: 82px;
+  top: 114px;
   display: block;
   z-index: 1;
 }
@@ -467,6 +468,10 @@ input {
   justify-content: space-between;
   align-items: center;
   margin-top: 32px;
+}
+
+.navbar-sector-two {
+  height: 35px;
 }
 
 .navbar p {
@@ -505,6 +510,28 @@ input {
   font-size: 36px;
 }
 
+.navbar-search {
+  position: relative;
+  opacity: 0;
+  bottom: 28px;
+  max-width: 900px;
+  margin: auto;
+  right: -150%;
+  transition: .5s all;
+}
+
+.navbar-search__form-input {
+  padding: 7px 15px;
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  background: #fff;
+  z-index: 200;
+  border: 1px solid #402909;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
 .navbar-links {
   max-width: 100px;
   width: 100%;
@@ -516,6 +543,7 @@ input {
   max-width: 877px;
   width: 100%;
   margin: 30px auto 0;
+  padding: 0;
   font-family: NeueHaasDisplay;
   list-style-type: none;
   display: flex;
@@ -601,6 +629,14 @@ input {
   .navbar-links__table {
     display: grid;
     height: 60%;
+    padding: 0 0 0 16px;
+  }
+  .navbar-search {
+    bottom: 39px;
+    max-width: 480px;
+  }
+  .navbar-search__form-input {
+    height: 36px;
   }
   .navbar-sector-one {
     margin-top: 0;
@@ -609,7 +645,7 @@ input {
     transition: .2s all;
     position: fixed;
     right: 100%;
-    height: 90%;
+    height: 100%;
     width: 100%;
     display: flex;
     background: #fff;
@@ -617,7 +653,7 @@ input {
 }
 
 .banner {
-  margin-top: 93px;
+  margin-top: 80px;
   height: 639px;
 }
 
@@ -682,6 +718,7 @@ input {
   display: flex;
   align-items: center;
   position: absolute;
+  height: 639px;
   width: 68.3%;
   z-index: -1;
   right: 0;
@@ -693,6 +730,9 @@ input {
 
 .banner-slider__next {
   overflow: hidden;
+  max-width: 397px;
+  width: 100%;
+  height: 413px;
 }
 
 .banner-slider__number {
@@ -701,7 +741,7 @@ input {
   align-items: center;
   position: absolute;
   right: 197px;
-  bottom: 78px;
+  bottom: 74px;
   max-width: 131px;
   width: 100%;
   height: 16px;
@@ -825,6 +865,7 @@ input {
   color: #402909;
   font-size: 25px;
   line-height: 17px;
+  margin-top: 22px;
   font-family: NeueHaasDisplay;
 }
 
@@ -953,7 +994,7 @@ collection-slider__box-item.active.center {
   position: absolute;
   left: 41%;
   right: 25%;
-  top: 5px;
+  top: 6px;
   bottom: 0;
   margin: 25% auto;
   transform: translate(-25%, -25%);
@@ -966,10 +1007,13 @@ collection-slider__box-item.active.center {
 
 .gender-table__item-img {
   width: 100%;
+  height: 100%;
 }
 
 .gender-table__item-img img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .man-color {
@@ -1079,9 +1123,9 @@ collection-slider__box-item.active.center {
 }
 
 .map-description__about-contacts {
-  font-size: 17px;
-  margin: 37px 0 0 0;
-  line-height: 9.2px;
+  font-size: 16.6px;
+  margin: 38px 0 0 0;
+  line-height: 9.4px;
   font-family: NeueHaasDisplay;
 }
 
@@ -1221,7 +1265,7 @@ collection-slider__box-item.active.center {
   font-family: Manege;
   font-size: 36px;
   color: #402909;
-  margin: 75px 0 40px;
+  margin: 77px 0 37px;
 }
 
 .special-describe__text {
@@ -1229,7 +1273,7 @@ collection-slider__box-item.active.center {
 }
 
 .special-describe__btn {
-  margin-top: 69px;
+  margin-top: 71px;
 }
 
 .special-describe__slider-nav {
@@ -1643,6 +1687,7 @@ collection-slider__box-item.active.center {
     grid-auto-rows: 25%;
     justify-content: center;
     padding: 30px 25px 25px;
+    transition: .1s all;
   }
   .login-modal__close {
     right: 16px;
