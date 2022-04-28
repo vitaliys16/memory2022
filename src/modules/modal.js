@@ -16,5 +16,4 @@ const modal = () => {
         }
     });
 };
-//need mobile version
 export default modal;
