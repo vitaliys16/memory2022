@@ -1,0 +1,146 @@
+[
+    {
+        "category": "Glasses",
+        "subcategory": "Glasses",
+        "name": "Noray-nobay",
+        "price": "6199",
+        "description": "Sunglasses from a premium brand with a frame made of lightweight durable metal",
+        "img": [
+            "database/img/glasses/11163049-1.jpg"
+        ],
+        "id": "idd001",
+        "count": 7
+    },
+    {
+        "category": "Brooch",
+        "subcategory": "Brooch",
+        "name": "South Sofi",
+        "price": "1999",
+        "description": "Beautiful designer brooch in the form of several flowers",
+        "img": [
+            "database/img/brooch/2f0a6fbd60f9dfd6124dc5a535d5.jpg"
+        ],
+        "id": "idd002",
+        "count": 3
+    },
+    {
+        "category": "Brooch",
+        "subcategory": "Brooch",
+        "name": "Autumik",
+        "price": "1999",
+        "description": "Designer brooch in the form of a pebble with a leaf",
+        "img": [
+            "database/img/brooch/599795cb93be11ab1e2604704c4z--ukrasheniya-brosh-bulavka-oreshki-na-ladoshke.jpg"
+        ],
+        "id": "idd003",
+        "count": 9
+    },
+    {
+        "category": "Brooch",
+        "subcategory": "Brooch",
+        "name": "SunShine",
+        "price": "3999",
+        "description": "The sun symbol will complement your charming image",
+        "img": [
+            "database/img/brooch/38974838-1.jpg"
+        ],
+        "id": "idd004",
+        "count": 5
+    },
+    {
+        "category": "Brooch",
+        "subcategory": "Brooch",
+        "name": "Flowers",
+        "price": "999",
+        "description": "This accessory will be the perfect finishing touch to any outfit of a chic woman, it will favorably emphasize your status and personality.",
+        "img": [
+            "database/img/brooch/1643277021_84-mykaleidoscope-ru-p-stilnie-ukrasheniya-moda-85.jpg"
+        ],
+        "id": "idd005",
+        "count": 4
+    },
+    {
+        "category": "Brooch",
+        "subcategory": "Brooch",
+        "name": "Zuma",
+        "price": "3999",
+        "description": "The author's design of the beetle with opening wings is made of natural gold.",
+        "img": [
+            "database/img/brooch/a7d86e00d2267b6c7e078e3ce0jw--ukrasheniya-brosh-v-smeshannoj-tehnike-gold-zhuk.jpg"
+        ],
+        "id": "idd006",
+        "count": 2
+    },
+    {
+        "category": "Brooch",
+        "subcategory": "Brooch",
+        "name": "Beauty Bloom",
+        "price": "1899",
+        "description": "Laconic jewelry jewelry will decorate a coat, jacket, dress or bag.",
+        "img": [
+            "database/img/brooch/brosh-tsvetok-s-biserom-brosh-tsvetok-iz-polimernoy-gliny.jpg"
+        ],
+        "id": "idd007",
+        "count": 3
+    },
+    {
+        "category": "Bracelets",
+        "subcategory": "Bracelets",
+        "name": "Boho",
+        "price": "3499",
+        "description": "Design work made of natural stone",
+        "img": [
+            "database/img/bracelets/0a86c80160af4884b79d9150d3fg--raboty-dlya-detej-busy-zavtra-leto-iz-naturalnyh-kamnej.jpg"
+        ],
+        "id": "idd008",
+        "count": 8
+    },
+    {
+        "category": "Bracelets",
+        "subcategory": "Bracelets",
+        "name": "Crystalite",
+        "price": "9999",
+        "description": "Bracelet with crystal jewelry with a chain on the finger",
+        "img": [
+            "database/img/bracelets/2017.jpg"
+        ],
+        "id": "idd009",
+        "count": 3
+    },
+    {
+        "category": "Rings",
+        "subcategory": "Rings",
+        "name": "Warm Glow",
+        "price": "3999",
+        "description": "Handmade Ring",
+        "img": [
+            "database/img/rings/1679433.jpg"
+        ],
+        "id": "idd010",
+        "count": 7
+    },
+    {
+        "category": "Rings",
+        "subcategory": "Rings",
+        "name": "You & Beauty",
+        "price": "11999",
+        "description": "A set of rings for several fingers",
+        "img": [
+            "database/img/rings/1646827890_43-klublady-ru-p-obraz-koltso-na-bolshom-paltse-u-muzhchini-46.jpg"
+        ],
+        "id": "idd011",
+        "count": 5
+    },
+    {
+        "category": "Necklace",
+        "subcategory": "Necklace",
+        "name": "You & Beauty",
+        "price": "11999",
+        "description": "",
+        "img": [
+            "database/img/necklace/106892cd794efd279b5bef201152eb03.jpg"
+        ],
+        "id": "idd012",
+        "count": 3
+    }
+]

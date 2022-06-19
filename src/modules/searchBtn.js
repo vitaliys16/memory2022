@@ -12,7 +12,7 @@ const searchBtn = () => {
             document.querySelector('.navbar-search__form-input').placeholder='Search ...';
             searchLine.style.opacity = "1";
             searchLine.style.right = "0";
-            if (window.innerWidth < 768) {
+            if (window.innerWidth <= 768) {
                 navbar.style.height ="131px";
             }
         } else if (searchLine.style.opacity == "1") {
@@ -26,19 +26,18 @@ const searchBtn = () => {
         e.preventDefault();
         searchLine.style.opacity = "0";
         searchLine.style.right = "-250%";  
-        if (window.innerWidth < 768) {
+        if (window.innerWidth <= 768) {
             setTimeout(()=>{
                 navbar.style.height ="71px";
-                console.log('Я ТУПАЯ КОЧЕРЫЖКА');
             }, 300);
         } else {
             navbar.style.height ="";    
         }
     });
     window.addEventListener('resize', ()=> {
-        if (window.innerWidth > 768) {
+        if (window.innerWidth >= 769) {
             navbar.style.height ="";     
-        } else if (window.innerWidth < 768) {
+        } else if(window.innerWidth <= 768) {
             if (searchLine.style.opacity == "1"){
                 navbar.style.height ="131px";        
             }

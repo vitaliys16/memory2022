@@ -1649,6 +1649,105 @@ collection-slider__box-item.active.center {
   }
 }
 
+.catalog-block {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 12% 76%;
+  max-width: 95.3%;
+  width: 100%;
+  margin: 70px auto 0;
+}
+
+.catalog-side__left-title {
+  font-family: NeueHaasDisplay;
+  font-size: 32px;
+  font-weight: 500;
+  margin: 0 0 -9px 0;
+}
+
+.catalog-side__right {
+  margin-top: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.catalog-links {
+  list-style-type: none;
+  padding: 0 0 0 16px;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.catalog-item {
+  position: relative;
+  width: 242px;
+  height: 392px;
+  margin: 0 10px 27px;
+}
+
+.catalog-item__link {
+  opacity: 0;
+  position: absolute;
+  top: 163px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  content: 'Add to cart';
+  font-family: NeueHaasDisplay;
+  text-transform: uppercase;
+  font-size: 24px;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  background: #D76932;
+  color: #F4F1EC;
+  border: none;
+  width: 159px;
+  height: 40px;
+}
+
+.catalog-item:hover .catalog-item__link {
+  transition: .1s all;
+  opacity: 1;
+}
+
+.catalog-item__img {
+  width: 100%;
+  height: 312px;
+}
+
+.catalog-item__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.catalog-item__section-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 9px;
+  margin-bottom: 4px;
+}
+
+.catalog-item__title {
+  margin: 0;
+  font-weight: 500;
+}
+
+.catalog-item__price {
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 22px;
+  color: #D76932;
+}
+
+.catalog-item__describe {
+  margin: 0;
+}
+
 .login {
   display: none;
   width: 100%;

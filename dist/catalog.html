@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <script src="./js/main.js" defer></script>
+    <title>Memory.</title>
+</head>
+<body>
+    <div class="login">
+        <div class="login-modal">
+            <div class="login-modal__close">
+			    <img src="img/close-icon-green.svg" alt="modal-close">
+		    </div>
+            <h1 class="login-modal__title">Authorization</h1>
+            <!--form-->
+            <form action="" name="login-modal__form">
+				<div class="login-modal__form-group">
+					<input type="text" name="fio" class="form-control" placeholder="Your name">
+				</div>
+				<div class="login-modal__form">
+					<input type="text" name="tel" class="form-control required" placeholder="Password *">
+				</div>
+				<p class="login-modal__requirements"><span class="red">*</span> <span class="f12">- required fields</span></p>
+                <div class="login-modal__form-elements">
+                    <button class="btn login-modal__form-btn">
+                        <p class="btn-text">Login</p>
+                        <img src="img/arrow.svg" alt="arrow">
+                    </button>
+                    <div class="login-modal__links">
+                        <a href="#"><span>Sign Up</span></a>
+                        <a href="#"><span>Forgot password?</span></a>
+                    </div>
+                </div>
+			</form>
+            <!--end-form-->
+        </div>
+    </div>
+    <!--NAVBAR-->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-sector-one">
+                <!--Language-->
+                <div class="navbar-language">
+                    <a href="#" class="navbar-language__link link">
+                        <p class="navbar-language__text">Ru</p>
+                        <img src="img/nav-elements/Vector.svg" class="navbar-language__img" alt="row">
+                    </a>
+                </div>
+                <!--end-Language-->
+                <a href="#" class="navbar-btn">
+                    <img src="img/burger-menu.svg" alt="burger-menu">
+                </a>
+                <div class="navbar-logo">
+                    <a href="index.html" class="navbar-logo__text link">Memory.</a>
+                </div>
+                <div class="navbar-links">
+                    <a href="#" class="navbar-links__search link">
+                        <img src="img/nav-elements/Search.svg" alt="Search-icon">
+                    </a>
+                    <a href="#" class="navbar-links__login link">
+                        <img src="img/nav-elements/Log in.svg" alt="Login-icon">
+                    </a>
+                    <a href="#" class="navbar-links__basket link">
+                        <img src="img/nav-elements/Shop.svg" alt="Basket-icon">
+                    </a>
+                </div>
+            </div>
+
+            <div class="navbar-search">
+                <button class="navbar-search__close">
+                    <img src="img/close-icon-green.svg" alt="close-btn">
+                </button>
+                <form action="#" class="navbar-search__form">
+                    <input type="text" class="navbar-search__form-input" placeholder="Search ...">
+                    <a href="#" class="navbar-search__form-btn">
+                        <img src="img/nav-elements/Search.svg" alt="Search-icon">
+                    </a>
+                </form>
+            </div>
+            <div class="navbar-sector-two">
+                <ul class="navbar-links__table">
+                    <li>
+                        <a href="catalog.html" class="navbar-links__table-link link">Promotions</a>
+                    </li>
+                    <li>
+                        <a href="catalog.html" class="navbar-links__table-link link">Fragrances</a>
+                    </li>
+                    <li>
+                        <a href="catalog.html" class="navbar-links__table-link link">Gifts</a>
+                    </li>
+                    <li>
+                        <a href="index.html" class="navbar-links__table-link link">Home</a>
+                    </li>
+                    <li>
+                        <a href="catalog.html" class="navbar-links__table-link link">Jewelry</a>
+                    </li>
+                    <li>
+                        <a href="catalog.html" class="navbar-links__table-link link">Watch</a>
+                    </li>
+                    <li>
+                        <a href="catalog.html" class="navbar-links__table-link link">Wedding jewelry</a>
+                    </li>
+                    <li>
+                        <a href="catalog.html" class="navbar-links__table-link link">Leather goods</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--END-NAVBAR-->
+    <div class="catalog">
+        <div class="container">
+            <div class="catalog-block">
+                <div class="catalog-side__left">
+                    <h1 class="catalog-side__left-title">Catalog</h1>
+                    <ul class="catalog-links">
+                        <li>
+                            <a href="catalog.html" class="catalog-link link">Promotions</a>
+                        </li>
+                        <li>
+                            <a href="catalog.html" class="catalog-link link">Fragrances</a>
+                        </li>
+                        <li>
+                            <a href="catalog.html" class="catalog-link link">Gifts</a>
+                        </li>
+                        <li>
+                            <a href="index.html" class="catalog-link link">Home</a>
+                        </li>
+                        <li>
+                            <a href="catalog.html" class="catalog-link link">Jewelry</a>
+                        </li>
+                        <li>
+                            <a href="catalog.html" class="catalog-link link">Watch</a>
+                        </li>
+                        <li>
+                            <a href="catalog.html" class="catalog-link link">Wedding jewelry</a>
+                        </li>
+                        <li>
+                            <a href="catalog.html" class="catalog-link link">Leather goods</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="catalog-side__right">
+                    <!--catalog-item-->
+                    <div class="catalog-item">
+                        <button class="catalog-item__link" aria-label="Add to cart" data-idd="idd001">Add to cart</button>
+                        <div class="catalog-item__img">
+                            <img src="database/img/bracelets/2017.jpg" alt="bracelets">
+                        </div>
+                        <div class="catalog-item__section-top">
+                            <h2 class="catalog-item__title">Crystalite</h2>
+                            <p class="catalog-item__price">9999 ₽</p>
+                        </div>
+                        <p class="catalog-item__describe">Bracelet with crystal jewelry with a chain on the finger</p>
+                    </div>
+                    <!--end-catalog-item-->
+                    <!--catalog-item-->
+                    <div class="catalog-item">
+                        <button class="catalog-item__link" aria-label="Add to cart" data-idd="idd001">Add to cart</button>
+                        <div class="catalog-item__img">
+                            <img src="database/img/rings/1679433.jpg" alt="bracelets">
+                        </div>
+                        <div class="catalog-item__section-top">
+                            <h2 class="catalog-item__title">Warm Glow</h2>
+                            <p class="catalog-item__price">3999 ₽</p>
+                        </div>
+                        <p class="catalog-item__describe">Handmade Ring</p>
+                    </div>
+                    <!--end-catalog-item-->
+                    <!--catalog-item-->
+                    <div class="catalog-item">
+                        <button class="catalog-item__link" aria-label="Add to cart" data-idd="idd001">Add to cart</button>
+                        <div class="catalog-item__img">
+                            <img src="database/img/necklace/1643276875_9-mykaleidoscope-ru-p-stilnie-ukrasheniya-moda-9.jpg" alt="bracelets">
+                        </div>
+                        <div class="catalog-item__section-top">
+                            <h2 class="catalog-item__title">You & Beauty</h2>
+                            <p class="catalog-item__price">11999 ₽</p>
+                        </div>
+                        <p class="catalog-item__describe">A set of several necklaces made directly by professional designers</p>
+                    </div>
+                    <!--end-catalog-item-->
+                    <!--catalog-item-->
+                    <div class="catalog-item">
+                        <button class="catalog-item__link" aria-label="Add to cart" data-idd="idd001">Add to cart</button>
+                        <div class="catalog-item__img">
+                            <img src="database/img/brooch/2f0a6fbd60f9dfd6124dc5a535d5.jpg" alt="bracelets">
+                        </div>
+                        <div class="catalog-item__section-top">
+                            <h2 class="catalog-item__title">South Sofi</h2>
+                            <p class="catalog-item__price">1999 ₽</p>
+                        </div>
+                        <p class="catalog-item__describe">Beautiful designer brooch in the form of several flowers</p>
+                    </div>
+                    <!--end-catalog-item-->
+                    <!--catalog-item-->
+                    <div class="catalog-item">
+                        <button class="catalog-item__link" aria-label="Add to cart" data-idd="idd001">Add to cart</button>
+                        <div class="catalog-item__img">
+                            <img src="database/img/glasses/11163049-1.jpg" alt="bracelets">
+                        </div>
+                        <div class="catalog-item__section-top">
+                            <h2 class="catalog-item__title">Noray-nobay</h2>
+                            <p class="catalog-item__price">6199 ₽</p>
+                        </div>
+                        <p class="catalog-item__describe">Sunglasses from a premium brand with a frame made of lightweight durable metal</p>
+                    </div>
+                    <!--end-catalog-item-->
+                    <!--catalog-item-->
+                    <div class="catalog-item">
+                        <button class="catalog-item__link" aria-label="Add to cart" data-idd="idd001">Add to cart</button>
+                        <div class="catalog-item__img">
+                            <img src="database/img/bracelets/0a86c80160af4884b79d9150d3fg--raboty-dlya-detej-busy-zavtra-leto-iz-naturalnyh-kamnej.jpg" alt="bracelets">
+                        </div>
+                        <div class="catalog-item__section-top">
+                            <h2 class="catalog-item__title">Boho</h2>
+                            <p class="catalog-item__price">3499 ₽</p>
+                        </div>
+                        <p class="catalog-item__describe">A set of several necklaces made directly by professional designers</p>
+                    </div>
+                    <!--end-catalog-item-->
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
